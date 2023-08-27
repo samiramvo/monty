@@ -13,12 +13,12 @@ void fqueue(stack_t **head, unsigned int counter)
 }
 
 /**
- * addqueue - add node
+ * add_queue - add node
  * @n: new value
  * @head: head of the stack
  * Return: no return
  */
-void addqueue(stack_t **head, int n)
+void add_queue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
 
